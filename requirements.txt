@@ -3,4 +3,4 @@ djangorestframework
 pymongo
 mongoengine
 streamlit
-dotenv
+python-dotenv
