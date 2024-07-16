@@ -90,7 +90,6 @@ import os
 load_dotenv()
 
 mongoengine.connect(
-    db=os.getenv('DATABASE'),
     host=os.getenv('HOST'),
 )
 
