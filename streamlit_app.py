@@ -21,7 +21,7 @@ def main():
     viewset = MyModelViewSet()
 
     if operation == "Create":
-        st.header('Create Data in Django')
+        # st.header('Create Data in Django')
 
         # Input fields for creating new data
         name = st.text_input('Enter Name:')
@@ -39,7 +39,7 @@ def main():
                 st.error(f'Failed to create data')
 
     elif operation == "Retrieve":
-        st.header('Fetch Data from Django')
+        # st.header('Fetch Data from Django')
 
         # Button to fetch data
         if st.button('Fetch Data'):
